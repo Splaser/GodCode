@@ -1,0 +1,16 @@
+﻿## Interface: 60200
+## Title: |cFF8000FF 上帝指令
+## Notes: |cffffff00 上帝指令 6.x |cffffffff Version: 2015.02.18|r
+## Title-zhCN: |cFF8000FF 上帝指令 |cffffff00之|cFF8000FF 必需运行库|r
+## Notes-zhCN: 上帝指令|cffffffffVersion: 2013.03.28 2013|r
+## Title-zhTW: |cFF8000FF 上帝指令 |cffffff00之|cFF8000FF 必需运行库|r
+## Notes-zhTW: 上帝指令|cffffffffVersion: 2013.03.28 2013|r
+## Version: 2013.03.28 2013
+
+
+
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: sdm_version,sdm_listFilters,sdm_iconSize,sdm_mainContents,sdm_macros,wowam_config,wowam_config_icon,MagicCastDB
+Bindings.xml
+wowam.xml

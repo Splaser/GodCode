@@ -1,0 +1,133 @@
+﻿<Bindings>
+	<Binding name="SuperTreatment_SHOW" description="" header="SuperTreatment">
+		SuperTreatment_Show();
+	</Binding>
+	
+	<Binding name="SuperTreatment_STARTSTOP" description="" header="SuperTreatment">
+		SuperTreatment_Start();
+	</Binding>
+	
+
+	<Binding name="SuperTreatment_RUN" description="" header="SuperTreatment">
+		SuperTreatment_Run();
+	</Binding>
+	
+	<Binding name="SuperTreatment_AUTO" description="" header="SuperTreatment">
+		SuperTreatment_Auto();
+	</Binding>
+	
+	<Binding name="SuperTreatment_BURSTS" description="" header="SuperTreatment" runOnUp="true">
+		
+		
+		if ( keystate == "down" ) then
+			SuperTreatment_Auto();
+		else
+			SuperTreatment_Stop();
+		end
+		
+	</Binding>
+	
+	<Binding name="SuperTreatment_STOPALL" description="" header="SuperTreatment">
+		SuperTreatment_Stop();
+	</Binding>
+	
+	
+	
+	<Binding name="SuperTreatment_CastProgram1" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(1);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram2" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(2);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram3" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(3);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram4" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(4);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram5" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(5);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram6" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(6);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram7" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(7);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram8" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(8);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram9" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(9);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram10" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(10);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram11" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(11);
+	</Binding>
+	
+	<Binding name="SuperTreatment_CastProgram12" description="" header="SuperTreatment">
+		SuperTreatment_Program_Show(12);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram1" description="" header="SuperTreatment">
+		SuperTreatment_run(1);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram2" description="" header="SuperTreatment">
+		SuperTreatment_run(2);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram3" description="" header="SuperTreatment">
+		SuperTreatment_run(3);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram4" description="" header="SuperTreatment">
+		SuperTreatment_run(4);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram5" description="" header="SuperTreatment">
+		SuperTreatment_run(5);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram6" description="" header="SuperTreatment">
+		SuperTreatment_run(6);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram7" description="" header="SuperTreatment">
+		SuperTreatment_run(7);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram8" description="" header="SuperTreatment">
+		SuperTreatment_run(8);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram9" description="" header="SuperTreatment">
+		SuperTreatment_run(9);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram10" description="" header="SuperTreatment">
+		SuperTreatment_run(10);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram11" description="" header="SuperTreatment">
+		SuperTreatment_run(11);
+	</Binding>
+	
+	<Binding name="SuperTreatment_RunProgram12" description="" header="SuperTreatment">
+		SuperTreatment_run(12);
+	</Binding>
+	
+	
+</Bindings>
